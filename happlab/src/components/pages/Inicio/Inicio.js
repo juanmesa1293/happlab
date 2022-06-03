@@ -2,11 +2,13 @@ import React from 'react'
 import './Inicio.css'
 import imagenes from '../../../assets/imagenes'
 import ReactPlayer from 'react-player'
-import { Carousel } from 'bootstrap'
+import Navbar1 from '../../navegation/navbar/Navbar1'
+import Footer from '../../navegation/footer/Footer'
 
 const Inicio = () => {
   return (
     <div className='main-inicio'>
+      <Navbar1 />
             <div className='container-inicio'>
               <hr/>
                 <div className='row'>
@@ -61,6 +63,7 @@ const Inicio = () => {
               </div>
             </div>
             <hr/>  
+            <Footer/>
     </div>
   )
 }
