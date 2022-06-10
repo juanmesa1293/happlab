@@ -5,12 +5,12 @@ import logo from "../../../../src/assets/images/logo3.jpg";
 const Navbar1 = () => {
   return (
     <>
-        <Navbar className="navBg" variant="dark" expand="lg">
+        <Navbar className="navBg" variant="dark" sticky='top' expand="lg">
         <Container>
             <Navbar.Brand  as ={Link} to="/">HappLab Home Page</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
+            <Nav className="me-auto ">
               <Nav.Link as={Link} to="/">Inicio </Nav.Link>
               <Nav.Link as={Link} to="/About">Noticias </Nav.Link>
               <Nav.Link as={Link} to="/About">Contenidos </Nav.Link>
@@ -21,7 +21,11 @@ const Navbar1 = () => {
                 <NavDropdown.Divider />
               </NavDropdown>
             </Nav>
-            </Navbar.Collapse>
+            <Nav className='login'>
+            <Nav.Link href="/">Iniciar Sesion</Nav.Link>
+            <Nav.Link href="/">Registro</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
         </Container>
         </Navbar>
 
