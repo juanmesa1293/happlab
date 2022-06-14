@@ -17,7 +17,7 @@ const Navbar1 = () => {
               <NavDropdown title="Investigacion" id="navbarScrollingDropdown">
                 <NavDropdown.Item as={Link} to="/About">Lineas de Investigacion</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/About">Investigadores</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/About">Tecnologia</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/Tecnologias">Tecnologias</NavDropdown.Item>
                 <NavDropdown.Divider />
               </NavDropdown>
               <Nav.Link as={Link} to="/Acerca">Acerca de </Nav.Link>

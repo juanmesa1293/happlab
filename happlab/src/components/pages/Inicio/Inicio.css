@@ -1,17 +1,37 @@
 .main-inicio{
   flex-wrap: wrap;
+  background-color: #1E86C0;
 }
 
 .container-inicio{
    background-color: white;
-   margin: 20px;
 
+}
+
+.row-inicio{
+  background-color: white;
+  column-count: 2;
+  column-gap: 50px;
+
+}
+
+.text-lore-happ{
+  text-align: left;
+  margin: 10px;
+  font-size: x-large;
+}
+
+.title{
+  color: #B33030;
+  text-align: left;
+  margin: 10px;
 }
 
 .main-inicio .title-h2{
   text-align: left;
   color: white;
   background-color: #1E86C0;
+  
 }
   .main-inicio .container-inicio .row .col{
       text-align: center;
@@ -45,6 +65,10 @@
     color: white;
   }
 
-  .images{
+  .images-carousel{
     position: relative;
   }
+
+.carousel{
+  background-color: white;
+}
