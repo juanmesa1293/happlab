@@ -12,7 +12,7 @@ const Navbar1 = () => {
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto" justify={true}>
               <Nav.Link as={Link} to="/">Inicio </Nav.Link>
-              <Nav.Link as={Link} to="/About">Noticias </Nav.Link>
+              <Nav.Link as={Link} to="/Noticias">Noticias </Nav.Link>
               <Nav.Link as={Link} to="/About">Contenidos </Nav.Link>
               <NavDropdown title="Investigacion" id="navbarScrollingDropdown">
                 <NavDropdown.Item as={Link} to="/About">Lineas de Investigacion</NavDropdown.Item>
@@ -20,7 +20,7 @@ const Navbar1 = () => {
                 <NavDropdown.Item as={Link} to="/About">Tecnologia</NavDropdown.Item>
                 <NavDropdown.Divider />
               </NavDropdown>
-              <Nav.Link as={Link} to="/About">Acerca de </Nav.Link>
+              <Nav.Link as={Link} to="/Acerca">Acerca de </Nav.Link>
             </Nav>
             <Nav className='login'>
             <Nav.Link href="/">Iniciar Sesion</Nav.Link>
