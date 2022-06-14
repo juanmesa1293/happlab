@@ -4,6 +4,7 @@ import imagenes from '../../../assets/imagenes'
 import ReactPlayer from 'react-player'
 import Navbar1 from '../../navegation/navbar/Navbar1'
 import Footer from '../../navegation/footer/Footer'
+import { Carousel } from 'react-bootstrap'
 
 const Inicio = () => {
   return (
@@ -63,6 +64,33 @@ const Inicio = () => {
               </div>
             </div>
             <hr/>  
+          <div className='carousel'>
+            <Carousel fade variant="dark" indicators={false}>
+              <Carousel.Item interval={1000}>
+                <img
+                  className="images"
+                  src= {imagenes.imgUni} width={400} height={150}
+                  alt="First slide" 
+                />
+              </Carousel.Item>
+              <Carousel.Item interval={1000}>
+                <img
+                  className="images"
+                  src= {imagenes.imgSam} width={400} height={150}
+                  alt="Second slide"
+                />
+
+              </Carousel.Item>
+              <Carousel.Item interval={1000}>
+                <img
+                  className="images"
+                  src={imagenes.imgAESS} width={400} height={150}
+                  alt="Third slide"
+                />
+              </Carousel.Item>
+            </Carousel>
+          </div>
+            <hr/>
             <Footer/>
     </div>
   )

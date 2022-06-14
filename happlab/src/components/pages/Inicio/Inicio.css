@@ -44,3 +44,7 @@
     text-align: center;
     color: white;
   }
+
+  .images{
+    position: relative;
+  }
