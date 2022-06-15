@@ -72,3 +72,23 @@
 .carousel{
   background-color: white;
 }
+
+.row-cont{
+  column-count: 2;
+  background-color: #1E86C0;
+  column-gap: 50px;
+  height: 300px;
+}
+
+.row-cont .col-text{
+  text-align: center;
+  column-fill: auto;
+  margin: 20px;
+  
+}
+
+.row-cont .col-video{
+  column-fill: auto;
+  height: 300px;
+  margin: 20px;
+}
