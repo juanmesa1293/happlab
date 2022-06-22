@@ -5,6 +5,7 @@ import About from './components/pages/About';
 import Acerca from './components/pages/Acerca de/Acerca';
 import Noticias from './components/pages/Noticias/Noticias'
 import Tecnologias from './components/pages/Tecnologias/Tecnologias'
+import Investigadores from './components/pages/Investigadores/Investigadores';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path='Acerca' element={<Acerca />}/>
             <Route path='Noticias' element={<Noticias />}/>
             <Route path='Tecnologias' element={<Tecnologias />}/>
+            <Route path='Investigadores' element={<Investigadores />}/>
             <Route path='*' element={<Navigate replace to="/"/>}/>
         </Routes>
       </BrowserRouter>

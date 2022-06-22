@@ -21,8 +21,9 @@
 }
 
 .row-cont .col-text{
-    text-align: left;
+    text-align: center;
     column-fill: auto;
+    color: #003E59;
     margin: 20px;
     
 }

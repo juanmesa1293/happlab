@@ -1,7 +1,7 @@
 .main{
     background-color: white;
 }
-.main .title-standar{
+.main .title-happ{
     text-align: right;
     color: #011254;
     font-size: 50px;
@@ -15,13 +15,6 @@
     font-size: 50px;
     font-weight: bold;
     margin: 1%;
-}
-
-.row-cont{
-    column-count: 2;
-    background-color: #1E86C0;
-    column-gap: 50px;
-    height: 300px;
 }
 
 .row-contend{

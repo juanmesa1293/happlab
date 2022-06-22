@@ -12,7 +12,7 @@ const Acerca = () => {
             <Navbar1/>
             <div className='Container-main'>
                 <hr className='hr-line-white'/>
-                <h2 className='title-standar'>Bienvenido a HappLab</h2>
+                <h2 className='title-happ'>Bienvenido a HappLab</h2>
                 <hr className='hr-line-white'/>   
                     <div className='row-contend'>
                         <div className='col-text'>
