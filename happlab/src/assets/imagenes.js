@@ -5,6 +5,8 @@ import logoUni from './images/logoUnicauca.png'
 import logoAESS from './images/LogoAESS.png'
 import tecno1 from './images/tecno-1.png'
 import tecno2 from './images/tecno-2.png'
+import logoGico from './images/LogoGICO.png'
+
 
 export default {
     "img1": logo1,
@@ -13,5 +15,6 @@ export default {
     "imgUni": logoUni,
     "imgAESS": logoAESS,
     "imgTec1": tecno1,
-    "imgTec2": tecno2
+    "imgTec2": tecno2,
+    "imgGico": logoGico
 }
